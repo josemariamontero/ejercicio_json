@@ -14,4 +14,4 @@ Pedir por teclado una subcadena y mostrar el nombre de la/las pastelería/s
 Pedir por teclado el nombre de una pastelería y mostrar el horario de cada una de ellas
 
 5º Ejercicio
-Pedir el nombre de una pastelería y mostrar su dirección, número de teléfono y una foto de dicha pastelería
+Pedir la dirección de una pastelería y mostrar su nombre, una pequeña descripción de la pastelería, número de teléfono y una foto de dicha pastelería
