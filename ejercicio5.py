@@ -9,17 +9,22 @@ for i in doc["directorios"]["directorio"]:
 	if direccion in i["direccion"]:
 		nombre = i["nombre"]["content"]
 		indicador = True
-		descripcion = i["descripcion"]
+		descripcion = i["descripcion"]["content"]
 		telefono = i["telefono"]["content"]
 		foto = i["foto"]["content"]
-	if not indicador:
-		print("No existe esa dirección")
+if not indicador:
+	print("No existe esa dirección")
 
-print(nombre)
+print("Confitería:",nombre)
 print("---------------------")
 print("Descripción:",descripcion)
 print("Telefono:",telefono)
 print("Foto:",foto)
-	#print(ubicacion_past[0])
 
+
+
+# Pruebas
 #Libertad, 2 - 33206 Gijón
+#Avda. Castilla, 5
+#C/ Leonardo Torres Quevedo, 17 - 33211 Roces
+#Plaza del Marqués, 10
